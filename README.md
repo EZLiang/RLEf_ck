@@ -1,16 +1,17 @@
 # RLEf_ck
 RLE-fied Brainfck converter
 
-Suppose [Brainfck] isn't esoteric enough for your esolang requirements. However, you also happen to be experienced in Brainfck. You notice that there are exactly eight commands in Brainfck. So you decide to encode it in binary with the following table:
-|Char|Encode|
-|>   |000   |
-|<   |010   |
-|+   |001   |
-|-   |011   |
-|[   |100   |
-|]   |101   |
-|.   |110   |
-|,   |111   |
+Suppose [Brainfck](https://en.wikipedia.org/wiki/Brainfuck) isn't esoteric enough for your esolang requirements. However, you also happen to be experienced in Brainfck. You notice that there are exactly eight commands in Brainfck. So you decide to encode it in binary with the following table:
+| Char | Encode |
+| ---- | ------ |
+| >    | 000    |
+| <    | 010    |
+| +    | 001    |
+| -    | 011    |
+| [    | 100    |
+| ]    | 101    |
+| .    | 110    |
+| ,    | 111    |
 Your code is the following "Hello World" program:
 ```bf
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
