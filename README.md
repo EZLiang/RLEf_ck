@@ -12,6 +12,7 @@ Suppose [Brainfck](https://en.wikipedia.org/wiki/Brainfuck) isn't esoteric enoug
 | ]    | 101    |
 | .    | 110    |
 | ,    | 111    |
+
 Your code is the following "Hello World" program:
 ```bf
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
